@@ -1,0 +1,241 @@
+body{
+    margin: 0%;
+    }
+    
+    /* Start Banner Section*/
+    .banner_section{
+        background-image: url(./images/banner/banner2.png);
+        background-size: cover;
+        width: auto;
+        height: 100vh;
+        color: rgb(2, 15, 255);
+        text-align: end;
+        padding-right: 100px;
+        padding-top: 200px;
+    }
+    .banner_section h1{
+        font-size: 70px;
+    }
+    .banner_section p{
+        font-size: 33px;
+    }
+    .banner_section button{
+        color: rgb(254, 254, 254);
+        background-color: rgba(206, 23, 23, 0.573);
+        width: 160px;
+        height: 65px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 25px;
+        border-radius: 5px;
+    }
+    /* End Banner Section*/
+    
+    
+    /* Start Previous Year Failure Section*/
+    .failure-section{
+        display: flex;
+        width: 100%;
+        height: 700px;
+        margin-top: 50px;
+    }
+    
+    .left-side-failure-section img{
+        width: 600px;
+        height: 650px;
+        margin: 20px 50px 0px 150px;
+    }
+    
+    .right-side-failure-section{
+        width: 900px;
+        height: 550px;
+         margin: 20px 150px 0px 10px;
+         padding-top: 100px;
+        padding-left: 15px;
+    }
+    
+    .right-side-failure-section h2{
+        font-size: 40px;
+    }
+    
+    .right-side-failure-section p, ul{
+        font-size: 20px;
+    }
+    /* End Previous Year Failure Section*/
+    
+    
+    /* Start My Plan Section. */
+    .plans-section{
+        height: 400px;
+        width: 70%;
+        margin: 0px 280px;
+        text-align: center;
+    }
+    .plans-section h2{
+        font-size: 40px;
+    }
+    .plan-list{
+        display: flex;
+        justify-content:space-around;
+    }
+    
+    .plan-task{
+        height: 250px;
+        width: 200px;
+        margin-left: 90px;
+    }
+    
+    .plan-task img{
+        width: 110px;
+        height: 100px;
+        padding-top: 10px;
+    }
+    
+    .plan-task h4{
+        font-size: 25px;
+    }
+    
+    .plan-task p{
+        font-size: 25px;
+    }
+    /* End My Plan Section. */
+    
+    
+    /* Start Daily Check List Section. */
+    .daily-check-list{
+        background-image: url(./images/daily-routine.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        height: 350px;
+        margin-bottom: 50px;
+        margin-left: 10%;
+        border-radius: 10px;
+        color: rgba(28, 30, 25, 0.988);
+        font-weight: 900;
+    
+    }
+    
+    .daily-check-list h2{
+        font-size: 40px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .daily-check-list-points{
+        display: flex;
+        justify-content:space-around;
+    }
+    
+    .left-side-check-list{
+        font-size: 25px;
+    }
+    
+    .negative-points{
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    
+    .right-side-check-list{
+        font-size: 25px;
+    }
+    
+    .positive-points{
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    
+    /* End Daily Check List Section. */
+    
+    
+    /* Start Positive Mindset Section. */
+    .mindset-section{
+        color: white;
+        height: 300px;
+        width: 80%;
+        margin-left: 120px;
+        padding-left: 100px;
+        padding-top: 60px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image:
+        linear-gradient(to left, rgba(233, 210, 193, 0.05), rgba(30, 136, 222, 0.834)),
+        url('./images/watch.png');
+        border-radius: 5px;
+    }
+    
+    .mindset-section h2{
+        font-size:50px;
+    }
+    
+    .mindset-section button{
+        color: rgb(37, 41, 47);
+        border-radius: 7px;
+        width: 120px;
+        height: 50px;
+        text-align: center;
+        font-size: 22px;
+    }
+    /* End Positive Mindset Section. */
+    
+    
+    /* Start Footer section. */
+    .footer-section{
+        background-color: rgba(0, 0, 0, 0.92);
+        display: flex;
+        color:white;
+        margin-top: 50px;
+        height: auto;
+        width: 100%;
+    }
+    
+    .left-side-footer-text-section{
+        width: 50%;
+        margin-left: 5%;
+        padding-left: 40px;
+    }
+    
+    .left-side-footer-text-section h3{
+        font-size: 40px;
+    }
+    
+    .left-side-footer-text-section p{
+        font-size: 24px;
+    }
+    
+    .left-side-footer-text-section h6{
+        font-size: 22px;
+    }
+    
+    .social-icon img{
+        margin-left: 15px;
+        padding-bottom: 20px;
+    }
+    
+    .right-side-footer-subscribe-section{
+    width: 40%;
+    margin-left: 10%;
+    font-size: 35px;
+    padding-left: 30px;
+    }
+    
+    .email-tag{
+        font-size: 24px;
+        background-color: transparent;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 40px;
+    }
+    
+    .right-side-footer-subscribe-section button{
+        background-color: rgba(49, 148, 229, 0.573);
+        color: white;
+        height: 50px;
+        width: 180px;
+        font-size: 25px;
+        border-radius: 8px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    /* End Footer Section.  */
